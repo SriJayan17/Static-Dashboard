@@ -36,27 +36,27 @@ export const MOCK_ACTIVITIES = [
   {
     content: 'You have a bug that needs to be fixed | Priority P2',
     receivedAt: moment().unix(),
-    avatarUrl: 'src/assets/user7.png',
+    avatarUrl: '/assets/user7.png',
   },
   {
     content: 'Released a new version',
     receivedAt: moment((moment().unix() - 3500)*1000).unix(),
-    avatarUrl: 'src/assets/user8.png',
+    avatarUrl: '/assets/user8.png',
   },
   {
     content: 'Submitted a bug',
     receivedAt: moment((moment().unix() - 12*3600)*1000).unix(),
-    avatarUrl: 'src/assets/user9.png',
+    avatarUrl: '/assets/user9.png',
   },
   {
     content: 'Modified a data in Page X',
     receivedAt: moment((moment().unix() - 20*3600)*1000).unix(),
-    avatarUrl: 'src/assets/user10.png',
+    avatarUrl: '/assets/user10.png',
   },
   {
     content: 'Deleted a page in Project X',
     receivedAt: moment((moment().unix() - 20*3600)*1000).unix(),
-    avatarUrl: 'src/assets/user11.png',
+    avatarUrl: '/assets/user11.png',
   },
 ];
 
@@ -64,32 +64,32 @@ export const MOCK_CONTACTS = [
   {
     firstName: 'Natali',
     lastName: 'Criag',
-    avatarUrl: 'src/assets/user1.png',
+    avatarUrl: '/assets/user1.png',
   },
   {
     firstName: 'Drew',
     lastName: 'Cano',
-    avatarUrl: 'src/assets/user2.png',
+    avatarUrl: '/assets/user2.png',
   },
   {
     firstName: 'Orlando',
     lastName: 'Diggs',
-    avatarUrl: 'src/assets/user3.png',
+    avatarUrl: '/assets/user3.png',
   },
   {
     firstName: 'Andy',
     lastName: 'Lane',
-    avatarUrl: 'src/assets/user4.png',
+    avatarUrl: '/assets/user4.png',
   },
   {
     firstName: 'Kate',
     lastName: 'Morrison',
-    avatarUrl: 'src/assets/user5.png',
+    avatarUrl: '/assets/user5.png',
   },
   {
     firstName: 'Korey',
     lastName: 'Okumus',
-    avatarUrl: 'src/assets/user6.png',
+    avatarUrl: '/assets/user6.png',
   },
 ]
 
@@ -184,7 +184,7 @@ const DATA_SET = [
     orderID: "#CM9801",
     user: {
       name: "Natali Craig",
-      avatar: "src/assets/user1.png"
+      avatar: "/assets/user1.png"
     },
     project: "Landing Page",
     address: "Meadow Lane Oakland",
@@ -195,7 +195,7 @@ const DATA_SET = [
     orderID: "#CM9802",
     user: {
       name: "Kate Morrison",
-      avatar: "src/assets/user2.png"
+      avatar: "/assets/user2.png"
     },
     project: "CRM Admin pages",
     address: "Larry San Francisco",
@@ -206,7 +206,7 @@ const DATA_SET = [
     orderID: "#CM9803",
     user: {
       name: "Drew Cano",
-      avatar: "src/assets/user3.png"
+      avatar: "/assets/user3.png"
     },
     project: "Client Project",
     address: "Bagwell Avenue Ocala",
@@ -217,7 +217,7 @@ const DATA_SET = [
     orderID: "#CM9804",
     user: {
       name: "Orlando Diggs",
-      avatar: "src/assets/user4.png"
+      avatar: "/assets/user4.png"
     },
     project: "Admin Dashboard",
     address: "Washburn Baton Rouge",
@@ -228,7 +228,7 @@ const DATA_SET = [
     orderID: "#CM9805",
     user: {
       name: "Andi Lane",
-      avatar: "src/assets/user5.png"
+      avatar: "/assets/user5.png"
     },
     project: "App Landing Page",
     address: "Nest Lane Olivette",

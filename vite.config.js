@@ -4,6 +4,7 @@ import svgr from 'vite-plugin-svgr'
 
 // https://vite.dev/config/
 export default defineConfig({
+  base: '/Static-Dashboard/',
   plugins: [
     react(),
     svgr({
@@ -12,5 +13,6 @@ export default defineConfig({
         icon: true,
       },
     }), 
-  ]
+  ],
+  assetsInclude: ['**/*.png', '**/*.jpg', '**/*.jpeg', '**/*.gif']
 })
