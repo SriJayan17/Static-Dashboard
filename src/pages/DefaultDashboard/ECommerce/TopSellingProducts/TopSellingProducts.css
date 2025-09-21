@@ -1,0 +1,34 @@
+.topSellingProductsContainer {
+  padding: 2.4rem;
+  border-radius: 1.6rem;
+  background: var(--cards-secondary);
+  /* width: 65rem; */
+}
+
+.topSellingProductsContainer header {
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+.topSellingProductsContainer table {
+  padding: 1rem 0;
+  width: 60rem;
+  border-collapse: collapse;
+}
+
+.topSellingProductsContainer table thead th {
+  color: var(--header-color);
+  font-size: 1.2rem;
+  font-weight: 400;
+  text-align: left;
+  padding: 1.3rem 1.5rem 1.3rem 0;
+  border-bottom: 0.1rem solid var(--border-color);
+}
+
+.topSellingProductsContainer table tbody tr {
+  font-size: 1.2rem;
+}
+
+.topSellingProductsContainer table tbody tr td {
+  padding: 1.3rem 1.5rem 1.3rem 0;
+}

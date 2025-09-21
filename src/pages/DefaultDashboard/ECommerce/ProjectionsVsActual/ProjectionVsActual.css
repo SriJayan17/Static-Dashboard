@@ -1,0 +1,10 @@
+.projectionsVsActualContainer {
+  padding: 2.4rem;
+  border-radius: 1.6rem;
+  background: var(--cards-secondary);
+  flex: 1;
+}
+
+.projectionsVsActualContainer .graphContainer {
+  padding: 1rem 0;
+}

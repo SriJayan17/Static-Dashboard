@@ -1,0 +1,61 @@
+.activitiesContainer {
+
+}
+
+.activitiesContainer header {
+  padding: 0.8rem 0.4rem 0.8rem 0;
+  font-size: 1.4rem;
+  font-weight: 400;
+}
+
+.activitiesContainer .activities {
+  padding: 0.8rem 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+
+.activitiesContainer .activities .activity {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+.activitiesContainer .activities .activity .content {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+}
+
+.activitiesContainer .activities .activity .imageContainer {
+  position: relative;
+}
+
+.activitiesContainer .activities .activity img {
+  border-radius: 50%;
+}
+
+.activitiesContainer .activities .activity:not(:last-child) .imageContainer:after {
+  content: '';
+  height: 1rem;
+  width: 0.1rem;
+  background: var(--border-color);
+  position: absolute;
+  bottom: -1.5rem;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+
+.activitiesContainer .activities .activity .content span {
+  font-size: 1.4rem;
+  max-width: 20rem;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.activitiesContainer .activities .activity .content span.time {
+  color: var(--header-color);
+  font-size: 1.2rem;
+}

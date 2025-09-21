@@ -1,0 +1,9 @@
+.ordersList {
+  padding: 2.8rem;
+  width: 100%;
+}
+
+.ordersList header {
+  font-size: 1.6rem;
+  font-weight: 600;
+}

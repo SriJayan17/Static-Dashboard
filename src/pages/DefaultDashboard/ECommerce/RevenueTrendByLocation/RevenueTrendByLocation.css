@@ -1,0 +1,50 @@
+.revenueTrendByLocation {
+  padding: 2.4rem;
+  border-radius: 1.6rem;
+  background: var(--cards-secondary);
+  flex: 1;
+}
+
+.revenueTrendByLocation header {
+  display: flex;
+  align-items: center;
+  gap: 2.8rem;
+}
+
+.revenueTrendByLocation .map {
+  padding: 1.6rem 0;
+  height: 18rem;
+  width: 100%;
+}
+.revenueTrendByLocation .map .geographies {
+  width: 100%;
+}
+
+.revenueTrendByLocation .progessBar {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+.revenueTrendByLocation .progessBar .locationData .metrics{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.4rem;
+}
+
+.geography {
+  fill: #A8C5DA;
+  stroke: var(--bg-color);
+}
+
+.marker {
+  fill: #1C1C1C;
+  stroke: var(--text-color)
+}
+
+:root[data-theme="dark"] .marker {
+  fill: #C6C7F8;
+}

@@ -1,0 +1,34 @@
+.pagesContainer {}
+
+.pagesContainer header {
+  padding: 0.4rem 1.2rem;
+  color: var(--header-color);
+  font-size: 1.4rem;
+  font-weight: 400;
+}
+
+.pagesGroup, .pagesGroup .pages {
+  padding: 0.8rem 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.pagesGroup .pages {
+  padding: 1rem 0;
+  gap: 0.4rem;
+}
+
+.pagesGroup .groupName {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.pagesGroup .pages .page {
+  font-size: 1.4rem;
+  padding: 0.4rem 0;
+  padding-left: 4.5rem;
+  text-align: left;
+}
+

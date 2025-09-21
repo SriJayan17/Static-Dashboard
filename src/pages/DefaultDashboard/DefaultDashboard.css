@@ -1,0 +1,5 @@
+.dashboardContainer {
+  padding: 3rem;
+  height: calc(100vh - 7.2rem);
+  overflow-y: scroll;
+}

@@ -1,0 +1,28 @@
+.applicationHeader {
+  padding: 2rem 2.8rem;
+  border-bottom: 1px solid var(--border-color);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.applicationHeader .rightPanel, .applicationHeader .leftPanel {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  color: var(--header-color);
+}
+
+.applicationHeader .leftPanel .trace {
+  font-size: 1.4rem;
+}
+
+.applicationHeader .leftPanel .trace span:not(:last-child) {
+  color: var(--header-color);
+}
+
+.applicationHeader .leftPanel .trace span:not(:last-child)::after {
+  content: " / ";
+  height: 2rem;
+  width: 2rem;
+}

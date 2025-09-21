@@ -1,0 +1,7 @@
+.sideBarContainer {
+  width: 21.2rem;
+  padding: 2rem 1.6rem;
+  border-right: 0.1rem solid var(--border-color);
+
+  overflow-y: scroll;
+}

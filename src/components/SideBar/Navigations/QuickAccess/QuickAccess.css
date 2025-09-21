@@ -1,0 +1,35 @@
+.quickAccessContainer {
+  
+}
+
+.quickAccessContainer header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.quickAccessContainer header .switchButton {
+  font-size: 1.4rem;
+  color: var(--secondary-color);
+}
+
+.quickAccessContainer header .active {
+  color: var(--header-color);
+}
+
+.quickAccessContainer ul {
+  padding: 0.8rem 2rem;
+}
+
+.quickAccessContainer ul li {
+  font-size: 1.4rem;
+  font-weight: 400;
+  padding: 0.4rem 0;
+}
+
+.quickAccessContainer ul li::marker {
+  color: var(--secondary-color);
+  height: 0.6rem;
+  width: 0.6rem;
+}
+

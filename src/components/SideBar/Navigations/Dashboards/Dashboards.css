@@ -1,0 +1,48 @@
+.dashboardsContainer {}
+
+.dashboardsContainer header {
+  padding: 0.4rem 1.2rem;
+  color: var(--header-color);
+  font-size: 1.4rem;
+  font-weight: 400;
+}
+
+.dashboardsContainer .navigationContainer {
+  padding: 0.8rem 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.dashboardsContainer .navigationContainer .navigation {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: 1.4rem;
+  font-weight: 400;
+  border-radius: 0.8rem;
+  padding: 0.4rem 0;
+}
+
+.dashboardsContainer .navigationContainer .navigation .icon {
+  padding-left: 0.5rem;
+}
+
+.dashboardsContainer .navigationContainer .navigation .moveRight {
+  padding-left: 3rem;
+}
+
+.dashboardsContainer .navigationContainer .navigation.active {
+  background: var(--active-color);;
+}
+
+.dashboardsContainer .navigationContainer .navigation.active::before {
+  content: '';
+  position: absolute;
+  top: 20%;
+  height: 60%;
+  width: 0.3rem;
+  border-radius: 0.5rem;
+  background: #1C1C1C;
+}

@@ -1,0 +1,10 @@
+.userInfoContainer {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  font-size: 1.4rem;
+}
+
+.userInfoContainer .avatar {
+  border-radius: 50%;
+}

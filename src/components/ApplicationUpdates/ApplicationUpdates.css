@@ -1,0 +1,10 @@
+.applicationUpdatesContainer {
+  padding: 2rem;
+  width: 28rem;
+  border-left: 0.1rem solid var(--border-color);
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+  height: 100vh;
+  overflow-y: scroll;
+}

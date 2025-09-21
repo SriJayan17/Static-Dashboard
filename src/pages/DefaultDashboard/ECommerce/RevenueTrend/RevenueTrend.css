@@ -1,0 +1,54 @@
+.revenueTrendsConatiner {
+  padding: 2.4rem;
+  border-radius: 1.6rem;
+  background: var(--cards-secondary);
+}
+
+.revenueTrendsConatiner header {
+  display: flex;
+  align-items: center;
+  gap: 2.8rem;
+}
+
+.revenueTrendsConatiner header h3 {
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+.revenueTrendsConatiner header h3::after {
+  content: "|";
+  font-size: 1.2rem;
+  font-weight: 400;
+  margin-left: 2.8rem;
+  color: var(--secondary-color);
+}
+
+.revenueTrendsConatiner header span {
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+.revenueTrendsConatiner header .metrics {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.revenueTrendsConatiner header .metrics .dot {
+  height: 0.6rem;
+  width: 0.6rem;
+  border-radius: 50%;
+  background: var(--text-color);
+}
+
+.revenueTrendsConatiner header .metrics .revenue {
+  font-weight: 600;
+}
+
+.revenueTrendsConatiner header .metrics .dot.previous {
+  background: var(--cyan);
+}
+
+.revenueTrendsConatiner .graphContainer {
+  padding: 1rem 0;
+}

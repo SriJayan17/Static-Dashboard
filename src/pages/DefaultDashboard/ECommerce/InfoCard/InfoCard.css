@@ -1,0 +1,46 @@
+.infoCard {
+  cursor: pointer;
+  padding: 2.4rem;
+  border-radius: 1.6rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 0.8rem;
+  background: var(--cards-secondary);
+  width: 20rem;
+}
+
+.infoCard:first-child {
+  background: var(--cards-primary);
+}
+.infoCard:last-child {
+  background: var(--cards-teritary);
+}
+
+:root[data-theme="dark"] .infoCard:first-child, :root[data-theme="dark"] .infoCard:first-child .metrics .primary, .infoCard:first-child .metrics .secondary span,.infoCard:first-child .metrics .secondary path, :root[data-theme="dark"] .infoCard:last-child, :root[data-theme="dark"] .infoCard:last-child .metrics .primary, :root[data-theme="dark"] .infoCard:last-child .metrics .secondary span, .infoCard:last-child .metrics .secondary path {
+  color: #1C1C1C;
+  fill: #1C1C1C !important;
+}
+
+.infoCard h3 {
+  font-size: 1.4rem;
+}
+
+.infoCard .metrics {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.infoCard .metrics .primary {
+  font-size: 2.4rem;
+  font-weight: 600;
+}
+
+.infoCard .metrics .secondary {
+  font-size: 1.2rem;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}

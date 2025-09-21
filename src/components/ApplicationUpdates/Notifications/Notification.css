@@ -1,0 +1,41 @@
+.notificationContainer {
+
+}
+
+.notificationContainer header {
+  padding: 0.8rem 0.4rem 0.8rem 0;
+  font-size: 1.4rem;
+  font-weight: 400;
+}
+
+.notificationContainer .notifications {
+  padding: 0.8rem 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+
+.notificationContainer .notifications .notification {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+.notificationContainer .notifications .notification .content {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+}
+
+.notificationContainer .notifications .notification .content span {
+  font-size: 1.4rem;
+  max-width: 20rem;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.notificationContainer .notifications .notification .content span.time {
+  color: var(--header-color);
+  font-size: 1.2rem;
+}
