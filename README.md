@@ -1,4 +1,4 @@
-# Project Title
+# Static Dashboard
 
 Static Dashboard built with React + Vite
 
